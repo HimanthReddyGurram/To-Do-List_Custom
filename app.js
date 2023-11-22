@@ -77,7 +77,7 @@ app.get("/", function (req, res) {
 
       res.redirect("/");
     }else{
-      res.render("list", { listTitle: "Default list", newListItems: reys ,tot:tot_users});
+      res.render("list", { listTitle: user_1.name, newListItems: reys ,tot:tot_users});
     }
 
   }k()
@@ -130,7 +130,7 @@ app.post("/", function(req, res){
     name: itemN
   });
 
-  if (su==="Default list") {
+  if (su===user_1.name) {
     ite.save();
     res.redirect("/");
   } else {

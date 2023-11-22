@@ -10,9 +10,16 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
             <% tot.forEach(element => {%>
+              <% if(element.name == "Default list") { %>
+                <li><a class="dropdown-item" href="/"><%=  element.name  %></a></li>
+              <% }else{ %>
             <li><a class="dropdown-item" href="<%=  element.name  %>"><%=  element.name  %></a></li>
-            <% }) %>
+            <% }}) %>
           </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about/a" tabindex="-1" aria-disabled="true">About</a>
+          </li>
       </ul>
       <form class="item" method="post" action="/a">
         <input class="form-control me-2" name="name" type="search" placeholder="Add new user" aria-label="Search">

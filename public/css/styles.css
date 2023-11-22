@@ -5,6 +5,7 @@ body {
   min-height: 1000px;
   font-family: "helvetica neue";
 }
+
 input, textarea {
   background-color: #d1d1d1;
 }
@@ -50,6 +51,9 @@ h1 {
 }
 form.edit {
   display: flex;
+}
+.aaa{
+  text-align: center;
 }
 
 .item {
