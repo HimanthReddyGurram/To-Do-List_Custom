@@ -4,7 +4,7 @@ We can create new users and each to-do list will be custom to the users.
 (This website has a backend so the data doesnot get lost when refreshing websites or servers.)
 
 ## Technologies
-*Bootstrap
+* Bootstrap
   - CSS
 * Javascript
   - ejs
