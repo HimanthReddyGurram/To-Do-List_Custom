@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/mongoToDoList441DB")
+mongoose.connect("mongodb://127.0.0.1:27017/mongoToDoListDB")
 
 const listSchema = new mongoose.Schema({
   name: {
