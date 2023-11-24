@@ -1,4 +1,4 @@
-# customToDoList
+# To-do List (Custom)
 A website where different users can add their to-do items and can delete them after they have done that.
 We can create new users and each to-do list will be custom to the users.
 (This website has a backend so the data doesnot get lost when refreshing websites or servers.)
@@ -24,10 +24,10 @@ To start working on your project right away, follow these commands.
 From your command line:
 ```bash
 # Clone this repository
-git clone https://github.com/HimanthReddyGurram/To-Do-List_Custom.git
+git clone https://github.com/HimanthReddyGurram/To-do-List_Custom.git
 
 # Go into the repository
-$ cd To-Do-List_Custom.git
+$ cd To-do-List_Custom.git
 
 # Install dependencies
 npm install
