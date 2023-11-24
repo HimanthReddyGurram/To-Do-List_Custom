@@ -19,13 +19,15 @@ Start your mongoDB process on some terminal preferably Hyper.
 
 If you do not have mongodb, you can get it from [https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
 
+To start working on your project right away, follow these commands.
+
 From your command line:
 ```bash
 # Clone this repository
-git clone https://github.com/HimanthReddyGurram/customToDoList.git
+git clone https://github.com/HimanthReddyGurram/To-Do-List_Custom.git
 
 # Go into the repository
-$ cd customToDoList.git
+$ cd To-Do-List_Custom.git
 
 # Install dependencies
 npm install
